@@ -15,6 +15,8 @@ public:
 
 	void SetPosition(const sf::Vector2f& pos) override;
 	
+	void SetSide(Sides side);
+
 	void Init() override;
 	void Release() override;
 	void Reset() override;
