@@ -1,4 +1,4 @@
-#include "stdafx.h"
+ #include "stdafx.h"
 #include "BackgroundElement.h"
 
 BackgroundElement::BackgroundElement(const std::string& texId, const std::string& name)

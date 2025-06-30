@@ -1,2 +1,4 @@
-﻿  SceneGame.cpp
-  sfmltimber.vcxproj -> C:\uh\sfmltimber-bin\sfmltimber-d.exe
+﻿  BackgroundElement.cpp
+  SceneGame.cpp
+Bee.obj : error LNK2019: "public: virtual void __cdecl GameObject::Reset(void)" (?Reset@GameObject@@UEAAXXZ)"public: virtual void __cdecl Bee::Reset(void)" (?Reset@Bee@@UEAAXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+..\sfmltimber-bin\sfmltimber-d.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.

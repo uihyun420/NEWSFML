@@ -4,6 +4,7 @@
 #include "TextGo.h"
 #include "BackgroundElement.h"
 #include "Tree.h"
+#include "Bee.h"
 
 SceneGame::SceneGame()
 	: Scene(SceneIds::Game)
@@ -20,6 +21,8 @@ void SceneGame::Init()
     texIds.push_back("graphics/cloud.png");
     texIds.push_back("graphics/tree.png");
     texIds.push_back("graphics/branch.png");
+    //texIds.push_back("graphics/bee.png");
+
 
     AddGameObject(new SpriteGo("graphics/background.png"));
 
